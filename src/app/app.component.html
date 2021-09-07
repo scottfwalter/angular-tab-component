@@ -1,0 +1,17 @@
+<app-tabs>
+  <app-tab name="First" [templateRef]="firstRef"></app-tab>
+  <app-tab name="Second" [templateRef]="secondRef"></app-tab>
+  <app-tab name="Third" [templateRef]="thirdRef"></app-tab>
+</app-tabs>
+
+<ng-template  #firstRef>
+  <app-tab1></app-tab1>
+</ng-template >
+
+<ng-template  #secondRef>
+  <app-tab2></app-tab2>
+</ng-template >
+
+<ng-template  #thirdRef>
+  Third tab content.
+</ng-template >
